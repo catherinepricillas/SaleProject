@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/CalculatorWS?wsdl" uri="src/conf/xml-resources/web-service-references/CalculatorWS/wsdl/localhost_8081/Marketplace_Web_Service/CalculatorWS.wsdl"/>
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/CalculatorWS?xsd=1" uri="src/conf/xml-resources/web-service-references/CalculatorWS/wsdl/localhost_8081/Marketplace_Web_Service/CalculatorWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/AddProductWS?wsdl" uri="src/conf/xml-resources/web-service-references/AddProductWS/wsdl/localhost_8081/Marketplace_Web_Service/AddProductWS.wsdl"/>
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/AddProductWS?xsd=1" uri="src/conf/xml-resources/web-service-references/AddProductWS/wsdl/localhost_8081/Marketplace_Web_Service/AddProductWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/YourProductWS?wsdl" uri="src/conf/xml-resources/web-service-references/YourProductWS/wsdl/localhost_8081/Marketplace_Web_Service/YourProductWS.wsdl"/>
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/YourProductWS?xsd=1" uri="src/conf/xml-resources/web-service-references/YourProductWS/wsdl/localhost_8081/Marketplace_Web_Service/YourProductWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/EditProductWS?wsdl" uri="src/conf/xml-resources/web-service-references/EditProductWS/wsdl/localhost_8081/Marketplace_Web_Service/EditProductWS.wsdl"/>
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/EditProductWS?xsd=1" uri="src/conf/xml-resources/web-service-references/EditProductWS/wsdl/localhost_8081/Marketplace_Web_Service/EditProductWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/DelProductWS?wsdl" uri="src/conf/xml-resources/web-service-references/DelProductWS/wsdl/localhost_8081/Marketplace_Web_Service/DelProductWS.wsdl"/>
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/DelProductWS?xsd=1" uri="src/conf/xml-resources/web-service-references/DelProductWS/wsdl/localhost_8081/Marketplace_Web_Service/DelProductWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/CatalogWS?wsdl" uri="src/conf/xml-resources/web-service-references/CatalogWS/wsdl/localhost_8081/Marketplace_Web_Service/CatalogWS.wsdl"/>
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/CatalogWS?xsd=1" uri="src/conf/xml-resources/web-service-references/CatalogWS/wsdl/localhost_8081/Marketplace_Web_Service/CatalogWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/PurchasesWS?wsdl" uri="src/conf/xml-resources/web-service-references/PurchasesWS/wsdl/localhost_8081/Marketplace_Web_Service/PurchasesWS.wsdl"/>
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/PurchasesWS?xsd=1" uri="src/conf/xml-resources/web-service-references/PurchasesWS/wsdl/localhost_8081/Marketplace_Web_Service/PurchasesWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/SalesWS?wsdl" uri="src/conf/xml-resources/web-service-references/SalesWS/wsdl/localhost_8081/Marketplace_Web_Service/SalesWS.wsdl"/>
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/SalesWS?xsd=1" uri="src/conf/xml-resources/web-service-references/SalesWS/wsdl/localhost_8081/Marketplace_Web_Service/SalesWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/ConfirmWS?wsdl" uri="src/conf/xml-resources/web-service-references/ConfirmWS/wsdl/localhost_8081/Marketplace_Web_Service/ConfirmWS.wsdl"/>
+    <system systemId="http://localhost:8081/Marketplace_Web_Service/ConfirmWS?xsd=1" uri="src/conf/xml-resources/web-service-references/ConfirmWS/wsdl/localhost_8081/Marketplace_Web_Service/ConfirmWS.xsd_1.xsd"/>
+</catalog>

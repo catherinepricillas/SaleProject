@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://YourProductModel/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://YourProductModel/">
+
+<xs:element name="IOException" type="tns:IOException"/>
+
+<xs:element name="ParseException" type="tns:ParseException"/>
+
+<xs:element name="getProduct" type="tns:getProduct"/>
+
+<xs:element name="getProductResponse" type="tns:getProductResponse"/>
+
+<xs:element name="hasProduct" type="tns:hasProduct"/>
+
+<xs:element name="hasProductResponse" type="tns:hasProductResponse"/>
+
+<xs:complexType name="hasProduct">
+<xs:sequence>
+<xs:element name="username" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="hasProductResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getProduct">
+<xs:sequence>
+<xs:element name="access_token" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getProductResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="IOException">
+<xs:sequence>
+<xs:element name="message" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ParseException">
+<xs:sequence>
+<xs:element name="errorType" type="xs:int"/>
+<xs:element name="message" type="xs:string" minOccurs="0"/>
+<xs:element name="position" type="xs:int"/>
+<xs:element name="unexpectedObject" type="xs:anyType" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

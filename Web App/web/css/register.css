@@ -1,0 +1,75 @@
+#PleaseRegister {
+	font-weight: bold;
+	font-family: "Helvetica, sans-serif";
+	font-size: 28px;
+}
+
+#formregis label {
+	font-family: "Helvetica, sans-serif";
+	font-size: 13px;
+}
+
+#formregis span {
+	font-family: "Helvetica, sans-serif";
+	 color:red;
+ 	font-size:11px;
+ 	margin-bottom: 10px;
+}
+
+#formregis input[type="text"]{
+	margin-top:5px;
+	font-size:12px;
+	width: 600px;
+	height: 25px;
+}
+
+#formregis input[type="password"]{
+	margin-top:5px;
+	font-size:12px;
+	width: 600px;
+	height: 25px;
+}
+
+#faddress {
+	width: 600px;
+	height: 70px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	resize : none;
+}
+
+
+#register {
+	width:100px;
+	background-color: #4a86e8;
+	color: white;
+	border: none;
+	padding: 5px;
+	float: right; 
+	height:35px;
+}
+
+#already {
+	font-weight: bold;
+	font-family: "Calibri";
+	font-size: 18px;
+}
+
+#here {
+	color: #4a86e8;
+	font-size: 15px;
+}
+
+
+
+#here a:link {
+	color:#4a86e8; 
+	background-color:transparent; 
+	text-decoration:none;
+}
+
+#here a:visited {
+	color:#4a86e8; 
+	background-color:transparent; 
+	text-decoration:none;
+}

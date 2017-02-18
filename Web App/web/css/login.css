@@ -1,0 +1,70 @@
+#login {
+	width:100px;
+	background-color: #4a86e8;
+	color: white;
+	border: none;
+	padding: 5px;
+	float: right; 
+	height:35px;
+}
+
+#EorU {
+margin-top:5px;
+	font-size:12px;
+	width: 600px;
+	height: 30px;
+}
+
+#pass {
+	margin-top:5px;
+	font-size:12px;
+	width: 600px;
+	height: 30px;
+}
+
+#dont {
+	font-weight: bold;
+	font-family: "Calibri";
+	font-size: 18px;
+}
+
+
+#PleaseLogin {
+	font-weight: bold;
+	font-family: "Calibri";
+	font-size: 28px;
+}
+
+
+#formlogin label {
+	font-family: "Helvetica, sans-serif";
+	font-size: 14px;
+}
+
+#project {
+	color: #4a86e8;
+}
+
+#here {
+	color: #4a86e8;
+	font-size: 15px;
+}
+
+#here a:link {
+	color:#4a86e8; 
+	background-color:transparent; 
+	text-decoration:none;
+}
+
+#here a:visited {
+	color:#4a86e8; 
+	background-color:transparent; 
+	text-decoration:none;
+}
+
+#formlogin span {
+	font-family: "Helvetica, sans-serif";
+ 	color:red;
+ 	font-size:12px;
+ 	margin-bottom: 10px;
+}
